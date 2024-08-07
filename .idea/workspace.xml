@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="609db8e1-3d5b-4f35-a9ba-60a534dfc24c" name="Changes" comment="enable doc ingestion" />
+    <list default="true" id="609db8e1-3d5b-4f35-a9ba-60a534dfc24c" name="Changes" comment="update pycharm IDE workspace changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,18 +69,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Streamlit Runner.executor&quot;: &quot;Run&quot;,
-    &quot;Python.core.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ingestion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;frontend&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/spin/PycharmProjects/documentation-helper&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Streamlit Runner.executor": "Run",
+    "Python.core.executor": "Run",
+    "Python.ingestion.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "memory-chat",
+    "last_opened_file_path": "/home/spin/PycharmProjects/documentation-helper",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Streamlit Runner" type="PythonConfigurationType" factoryName="Python">
       <module name="documentation-helper" />
@@ -182,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723028827376</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update pycharm IDE workspace changes">
+      <option name="closed" value="true" />
+      <created>1723029231046</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723029231046</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,7 +208,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="frontend" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -219,6 +231,7 @@
     <MESSAGE value="created a working ui with Q&amp;A session" />
     <MESSAGE value="edited pycharm workspace" />
     <MESSAGE value="enable doc ingestion" />
-    <option name="LAST_COMMIT_MESSAGE" value="enable doc ingestion" />
+    <MESSAGE value="update pycharm IDE workspace changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pycharm IDE workspace changes" />
   </component>
 </project>
