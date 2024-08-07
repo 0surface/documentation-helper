@@ -31,4 +31,4 @@ def ingest_docs():
 
 if __name__ == "__main__":
     print("Ingesting docs...")
-    # ingest_docs()
+    ingest_docs()
