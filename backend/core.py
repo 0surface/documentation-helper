@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+
 load_dotenv()
 
 from langchain import hub
@@ -33,5 +34,3 @@ def run_llm(query: str):
 if __name__ == "__main__":
     res = run_llm(query="What is a LangChain runnable?")
     print(res["result"])
-
-

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="609db8e1-3d5b-4f35-a9ba-60a534dfc24c" name="Changes" comment="merge unversioned files" />
+    <list default="true" id="609db8e1-3d5b-4f35-a9ba-60a534dfc24c" name="Changes" comment="fixup! implement working ui, Q&amp;A session">
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consts.py" beforeDir="false" afterPath="$PROJECT_DIR$/consts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingestion.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,16 +71,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.core.executor": "Run",
-    "Python.ingestion.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "frontend",
-    "last_opened_file_path": "/home/spin/.local/bin/pipenv",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Streamlit Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.core.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ingestion.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;frontend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/spin/PycharmProjects/documentation-helper&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -115,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722958575036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor result dictionary key values">
+      <option name="closed" value="true" />
+      <created>1723023465689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723023465689</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implement working ui, Q&amp;A session">
+      <option name="closed" value="true" />
+      <created>1723026438503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723026438503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +168,10 @@
     <MESSAGE value="pycharm commit" />
     <MESSAGE value="ingestion and adding to pinecone done" />
     <MESSAGE value="merge unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge unversioned files" />
+    <MESSAGE value="refactor result dictionary key values" />
+    <MESSAGE value="implemented a working ui with Q&amp;A session" />
+    <MESSAGE value="fixup! implement working ui, Q&amp;A session" />
+    <MESSAGE value="implemented a working ui with Q&amp;A session" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented a working ui with Q&amp;A session" />
   </component>
 </project>
