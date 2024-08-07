@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="609db8e1-3d5b-4f35-a9ba-60a534dfc24c" name="Changes" comment="merge unversioned files">
-      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ingestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/ingestion.py" afterDir="false" />
-    </list>
+    <list default="true" id="609db8e1-3d5b-4f35-a9ba-60a534dfc24c" name="Changes" comment="enable doc ingestion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,16 +65,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.core.executor": "Run",
-    "Python.ingestion.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "retrieval-qa",
-    "last_opened_file_path": "/home/spin/.local/bin/pipenv",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Streamlit Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.core.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ingestion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;frontend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/spin/PycharmProjects/documentation-helper&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Streamlit Runner" type="PythonConfigurationType" factoryName="Python">
+      <module name="documentation-helper" />
+      <option name="ENV_FILES" value="$PROJECT_DIR$/.env" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Pipenv (documentation-helper)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/.local/share/virtualenvs/documentation-helper-COZv1m5_/bin/streamlit" />
+      <option name="PARAMETERS" value="run main.py" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -123,7 +142,47 @@
       <option name="project" value="LOCAL" />
       <updated>1722958575036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor result dictionary key values">
+      <option name="closed" value="true" />
+      <created>1723023465689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723023465689</updated>
+    </task>
+    <task id="LOCAL-00005" summary="implement working ui, Q&amp;A session">
+      <option name="closed" value="true" />
+      <created>1723026438503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723026438503</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created a working ui with Q&amp;A session">
+      <option name="closed" value="true" />
+      <created>1723027471936</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723027471936</updated>
+    </task>
+    <task id="LOCAL-00007" summary="edited pycharm workspace">
+      <option name="closed" value="true" />
+      <created>1723028502895</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723028502895</updated>
+    </task>
+    <task id="LOCAL-00008" summary="enable doc ingestion">
+      <option name="closed" value="true" />
+      <created>1723028827376</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723028827376</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,7 +196,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="frontend" />
                       </list>
                     </value>
                   </entry>
@@ -153,6 +212,13 @@
     <MESSAGE value="pycharm commit" />
     <MESSAGE value="ingestion and adding to pinecone done" />
     <MESSAGE value="merge unversioned files" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge unversioned files" />
+    <MESSAGE value="refactor result dictionary key values" />
+    <MESSAGE value="implemented a working ui with Q&amp;A session" />
+    <MESSAGE value="fixup! implement working ui, Q&amp;A session" />
+    <MESSAGE value="implemented a working ui with Q&amp;A session" />
+    <MESSAGE value="created a working ui with Q&amp;A session" />
+    <MESSAGE value="edited pycharm workspace" />
+    <MESSAGE value="enable doc ingestion" />
+    <option name="LAST_COMMIT_MESSAGE" value="enable doc ingestion" />
   </component>
 </project>

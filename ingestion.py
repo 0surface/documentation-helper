@@ -25,14 +25,10 @@ def ingest_docs():
         doc.metadata.update({"source": new_url})
 
     print(f"Going to add {len(documents)} to Pinecone")
-    PineconeVectorStore.from_documents(
-        documents, embeddings, index_name=INDEX_NAME
-    )
+    PineconeVectorStore.from_documents(documents, embeddings, index_name=INDEX_NAME)
     print("**** Loading to vectorstore done ****")
 
 
 if __name__ == "__main__":
     print("Ingesting docs...")
-    # ingest_docs()
-
-
+    ingest_docs()
