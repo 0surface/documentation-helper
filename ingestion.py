@@ -6,6 +6,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import ReadTheDocsLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain_pinecone import PineconeVectorStore
+from consts import INDEX_NAME
 
 LANGCHAIN_DOCS_PATH = "langchain-docs/api.python.langchain.com/en/latest"
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
@@ -25,12 +26,13 @@ def ingest_docs():
 
     print(f"Going to add {len(documents)} to Pinecone")
     PineconeVectorStore.from_documents(
-        documents, embeddings, index_name="langchain-doc-index"
+        documents, embeddings, index_name=INDEX_NAME
     )
     print("**** Loading to vectorstore done ****")
 
 
 if __name__ == "__main__":
-    print("Starting...")
-    ingest_docs()
+    print("Ingesting docs...")
+    # ingest_docs()
+
 
